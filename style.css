@@ -1,0 +1,36 @@
+/*Pincury Zeazje Selfsite CSS File @zeazje, all rights.*/
+body {margin:0; background-color:#E5E5E5;}
+#container {margin:50px auto 10px; height:570px; width:1000px;}
+/*全局样式声明*/
+.0white {color:white;}
+/*全局样式声明 结束*/
+
+/* 顶端Top Bar (开始)*/
+#topbar {width:1000px; height:30px;}
+#topleft {width:300px; height:30px; float:left; background-color:#262525;}
+
+#topright {width:670px; height:30px; float:right; background-color:#262525;}
+#play {width:500px; height:30px; float:left; /*background-color:black;*/}
+  #ting {float:left; background-color:#262525;}
+  #player {/*background-color:white;*/ float;left;}
+  /*#player audio{width:300px; height:30px; background:#262525; border:#CCCCCC 1px solid;}  */
+#lrc {/*width:320px;*/ height:30px; float:right; /*background-color:pink;*/ color:white;}
+#mainframe {height:540px; width:1000px;}
+#main {height:540px; width:298px; float:left; background-color:#FFF; box-shadow:0px 0px 4px #464646; margin-left:1px; float:left;}
+  #avator {width:100px; height:100px; background-image:url(./res/avator.jpg); margin:10px; display:inline-table;}
+  #name {background-color:green; width:140px; height:24px; margin-top:-90px; margin-left:130px;}
+  #socialweb ul {margin-left: 80px;}
+  #socialweb ul li {display:block; list-style:none; float:left; margin-left:13px;}
+  #mailto {height:15px; width:150px; float:left; margin-left:130px; margin-top:-3px; background-color:yellow; font-size:11px; text-align:center; display:none;}
+
+  .style0 {margin:65px auto 10px;}
+  #tags {width:290px; height:30px; margin:5px auto 2px; line-height:30px; font-size:14px;}
+   #tags li {list-style:none; display:block; float:left; margin-left:7px;}
+  #calendare {width:290px; height:120px; margin:5px auto 10px; background-color:orange;}
+  #ultranav {width:290px; height:180px; margin:5px auto 5px; background-color:gray;}
+  #post {width:290px; height:62px; margin:10px auto 5px; background-color:gray; padding-top:2px;}
+    #post div {font-size:12px; text-align:center; margin:3px auto 3px;}
+	#post span {margin-left:2px;}
+	#post a {text-decoration:none;}
+#content {height:540px; width:668px; float:right; background-color:#FFF; box-shadow:0px 0px 4px #464646; position:absolute; top:80px; margin-left:330px;}
+
