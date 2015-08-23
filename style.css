@@ -1,10 +1,23 @@
 /*(C)Pincury Zeazje 2015 All Rights*/
-@charaset=utf-8
-body {margin:0;}
-#header {width:300px; margin:40px auto 2px; text-align:center;}
- #title {font-size:2.1em;}
- #header img {width:60px; margin-top:20px;}
+body{margin:0; _height:100%;}
+#back {width:100%; height:100%; position:absolute; left:0; top:0; text-align:center;}
+#flr {width:2px; height:100%; margin-left:-2px; display:inline-block; vertical-align:middle; /*background:green;*/}
+#frame {width:370px; height:500px; vertical-align:middle; display:inline-block;/* background:yellow;*/}
 
-#nav {width:40%; min-width:300px; margin:20px auto 10px; text-align:center;/* border:1px solid black;*/} 
-#nav span {margin:0 22px; font-size:0.8em}
-#welcome {width:60%; min-width:300px; height:120px; margin:20px auto; text-align:center;/* border:1px solid black;*/}
+#main {text-align:center; height:470px; width:370px; background:rgba(237,237,239,0.5); box-shadow:1.5px 1.5px 2px black;}
+#header {padding-top:30px;} 
+ #header span {font-size:26px; font-family:"Arial","Verdana","Sans-serif";}
+ #header img {margin-top:20px; width:96px; border-radius:48px;}
+
+
+#socialweb {width:150px; height:24px; margin:25px auto 10px; /*border:1px solid black;*/}
+ #socialweb li {list-style:none; float:left; margin-left:5px; display:inline-block;}
+ #socialweb a {text-decoration:none;}
+ #socialweb img {width:24px; border:0;}
+ 
+#post {width:250px; height:100px; margin:40px auto 10px; text-align:center;/* border:1px solid black;*/}
+#post span {font-size:12px; font-family:"Arial","Verdana","Sans-serif";}
+
+#nav {width:100%; margin-top:40px;}
+ #nav a {text-decoration:none;}
+ #nav li {list-style:none; display:inline-block; font-size:14px; margin:0 10px;}
