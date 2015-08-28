@@ -1,6 +1,6 @@
 /*(C)Pincury Zeazje 2015 All Rights*/
 body{margin:0; _height:100%; background:#F2F2F2;}
-#back {width:100%; height:100%; position:absolute; left:0; top:0; text-align:center; background:rgba(225,225,225,0.4);}
+#back {width:100%; height:100%; position:absolute; left:0; top:0; text-align:center; /*background:rgba(225,225,225,0.4);*/}
 #flr {width:2px; height:100%; margin-left:-2px; display:inline-block; vertical-align:middle; /*background:green;*/}
 /**********************核心模块 op************************/
 #frame {width:370px; height:500px; vertical-align:middle; display:inline-block;}
