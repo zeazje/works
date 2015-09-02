@@ -1,4 +1,5 @@
 /*(C)Pincury Zeazje 2015 All Rights*/
+@charset "utf-8";
 body{margin:0; _height:100%; background:#F2F2F2;}
 #back {width:100%; height:100%; position:absolute; left:0; top:0; text-align:center; /*background:rgba(225,225,225,0.4);*/}
 #flr {width:2px; height:100%; margin-left:-2px; display:inline-block; vertical-align:middle; /*background:green;*/}
@@ -16,10 +17,6 @@ body{margin:0; _height:100%; background:#F2F2F2;}
  #socialweb a {text-decoration:none;}
  #socialweb img {width:24px; border:0;}
  
-#post {width:250px; height:100px; margin:40px auto 10px; text-align:center;/* border:1px solid black;*/}
-#post span {font-size:12px; font-family:"Arial","Verdana","Sans-serif";}
-
-#nav {width:100%; margin-top:40px;}
- #nav a {text-decoration:none; color:black;}
- #nav li {list-style:none; display:inline-block; font-size:14px; margin:0 10px; font-family:"微软雅黑","Microsoft Yahei","simhei","黑体","文泉驿微米黑";}
- #nav li:hover {font-weight:bold;}
+#post {width:250px; height:100px; margin:5px auto 10px; text-align:center;}
+#post span {font-size:13px; font-family:"Arial","Verdana","Sans-serif"; line-height:24px;}
+  #sp1 {margin-bottom:20px; font-size:14px;}

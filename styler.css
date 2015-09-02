@@ -5,12 +5,15 @@ body{margin:0; height:100%; background:#F2F2F2;}
 * {font-family:"微软雅黑","Microsoft Yahei","simhei","黑体","文泉驿微米黑";}
 /***********************侧边栏 op************************/
 #flr {width:20%; min-width:200px; height:100%; display:inline-block; background:rgba(34,34,37,0.2); box-shadow:0.5px 0 1.5px rgba(0,0,0,0.5); float:left;}
- #profile {width:80%; margin:0 auto 10px; text-align:center; height:170px; padding-top:50px; border-bottom:1px solid #000;}
+ #profile {width:80%; margin:0 auto 5px; text-align:center; height:170px; padding-top:50px; border-bottom:1px solid #000;}
   #profile span {font-size:24px; font-family:"Arial","Verdana","Sans-serif";}
   #profile a {border:0; text-decoration:none; color:black;}
   #profile img {margin-top:15px; width:80px; border-radius:40px;}
- #nav {width:80%; height:200px; margin:0 auto; padding-top:30px;}
-  #nav li {list-style:none; margin-top:20px;}
+ #nav {width:80%; height:200px; margin:0 auto; padding-top:20px; padding-bottom:15px;}
+ .span-nav {list-style:none; width:80px; margin:20px auto; height:24px;}
+ .span-nav:hover {color:#ccc;}
+ .widsp {display:block; line-height:24px; border-left:1px dotted #000; border-right:1px dotted #000;}
+ .widsp:hover {border-left:1px solid #000; border-right:1px solid #000; background:#fff;}
   #nav a {text-decoration:none; color:black;}
  #post {width:80%; height:24px; margin:10px auto 10px; border-top:1px solid #000;}
   #post span {font-size:12px; color:black;}
